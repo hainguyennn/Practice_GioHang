@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import SanPhamGioHang from './SanPhamGioHang';
 
 export default class DanhSachSanPham extends Component {
+    // tao sửa lại chỗ này
     renderDanhSachSanPham = () => {
         return this.props.mangSanPham.map((sanPham, index) => {
             return (
